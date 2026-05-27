@@ -37,12 +37,16 @@ export function Hero() {
               Get Started
             </Button>
           </Link>
-          <Button
-            variant="outline"
-            className="border-white/20 text-white hover:bg-white/10 px-8 py-6 text-lg"
-          >
-            Watch Demo
-          </Button>
+          <Link
+            href="https://youtu.be/wIuqGFw54jI"
+            target="_blank">
+              <Button
+                  variant="outline"
+                  className="border-white/20 text-white hover:bg-white/10 px-8 py-6 text-lg"
+              >
+                Watch Demo
+              </Button>
+          </Link>
         </div>
       </motion.div>
     </section>
